@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 30px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+.em-bloco li {
+    background: aqua;
+    margin-bottom: 10px;
+    /* width: 100px; */
+}
