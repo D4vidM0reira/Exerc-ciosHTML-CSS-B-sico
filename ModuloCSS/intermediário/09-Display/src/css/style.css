@@ -1,37 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .em-bloco li {
     background: aqua;
     margin-bottom: 10px;
-    /* width: 100px; */
+    width: 100px;
 }
 
 .em-linha li {
     display: inline;
-    background-color: aqua;
+    background: aqua;
 }
 
 .em-linha-e-bloco li {
     display: inline-block;
-    background-color: aqua;
+    background: aqua;
     width: 100px;
     height: 100px;
 }
 
 .esconder {
     display: none;
-    background-color: aqua;
+    background: aqua;
     width: 100px;
     height: 100px;
 }

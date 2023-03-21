@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(8, 107, 107);
+}
+
+.cabecalho {
+    background-color: rgb(79, 164, 136);
+    padding: 10px 5px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+main .info {
+    font-size: 18px;
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        background-color: rgb(71, 71, 202);
+    }
+}
+
+/* @media (max-width: 375px) {  }// dispositivos extra pequenos
+
+@media (max-width: 576px) {  } // dispositivos pequenos (celulares em posição paisagem, menos de 768px)
+
+@media (max-width: 768px) {  } // dispositivos médios (tablets, menos de 992px)
+
+@media (max-width: 992px) {  } // dispositivos grandes (desktops, menos de 1200px)
+
+@media (max-width: 1200px) {  } // dispositivos extra grandes (desktops grandes) // 1200px ou mais, não tem breakpoint */
