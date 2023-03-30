@@ -1,0 +1,32 @@
+html {
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.em-bloco li {
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.em-linha li {
+    display: inline;
+    background: aqua;
+}
+
+.em-linha-e-bloco li {
+    display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}

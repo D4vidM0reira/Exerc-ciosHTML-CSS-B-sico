@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respansividade Media Queries</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/media.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">quem somos</a></li>
+                <li><a href="#onde-estamos">onde estamos</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1>Um filme do batmam</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia eligendi quos veniam voluptatibus consectetur assumenda, 
+                    nihil nemo ipsum dignissimos magni, odit esse suscipit, 
+                    perspiciatis nulla. Quo magnam laborum ad accusamus!
+                </p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quia eligendi quos veniam voluptatibus consectetur assumenda, 
+                    nihil nemo ipsum dignissimos magni, odit esse suscipit, 
+                    perspiciatis nulla. Quo magnam laborum ad accusamus!
+                </p>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="src/images/batman-pequena.jpg" 
+                    media="(max-width: 376px)">
+                    <img src="src/images/batman.jpg" alt="filme do batmam">
+                </picture>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    height: 1500px;
+    padding-top: 68px;
+}
+
+header {
+    position: fixed;
+    font-size: 24px;
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+}

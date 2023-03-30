@@ -1,0 +1,23 @@
+@media (max-width: 425px) {
+    .cabecalho {
+        background-color: rgb(106, 255, 255);
+    }
+}
+
+@media (max-width: 376px) {
+    .cabecalho {
+        text-align: center;
+        
+    }
+
+    .cabecalho nav li {
+        display: block;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cabecalho {
+        background-color: rgb(175, 50, 50);
+    }
+}

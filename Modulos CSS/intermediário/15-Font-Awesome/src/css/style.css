@@ -1,0 +1,24 @@
+body {
+    height: 1500px;
+}
+
+.icon {
+    font-size: 50px;
+    color: rgb(255, 186, 57);
+    padding: 5px 10px;
+} 
+
+.icon:hover {
+    transition: .4s;
+    color: rgb(170, 53, 53);
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(44, 96, 148);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}

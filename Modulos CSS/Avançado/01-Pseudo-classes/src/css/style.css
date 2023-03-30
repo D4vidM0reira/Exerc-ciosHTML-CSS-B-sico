@@ -1,0 +1,15 @@
+p:first-child {
+    background-color: aqua;
+}
+
+p:last-child {
+    color: red;
+}
+
+li:nth-child(odd) {
+    color: blueviolet;
+}
+
+li:nth-child(even) {
+    color: rgb(13, 199, 216);
+}

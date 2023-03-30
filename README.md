@@ -1,4 +1,4 @@
-# Curso Dev Quest em andamento
+# Curso Dev Quest em andamento...
 
 ## Aula de readme 
 

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: square inside url(./images/verificar.png);
+    background-color: orange;
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ol {
+   background-color: rgb(61, 178, 178); 
+}
+
+ol li {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: green;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    margin: 10px;
+}
