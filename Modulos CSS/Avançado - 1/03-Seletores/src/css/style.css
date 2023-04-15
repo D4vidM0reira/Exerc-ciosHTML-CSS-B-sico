@@ -1,0 +1,60 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rosybrown;
+    font-size: 50px;
+}
+
+.paragrafo {
+    color: rgb(161, 161, 20);
+    background-color: aquamarine;
+}
+
+#menu {
+    margin-left: 90px;
+}
+
+* {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+p, span {
+    font-size: 10px;
+}
+
+.sobre .texto {
+    font-size: 30px;
+    color: yellow;
+}
+
+div > p {
+    font-size: 30px;
+    color: rgb(229, 0, 229);
+}
+
+div + p {
+    font-size: 20px;
+    color: rgb(42, 0, 229);
+}
+
+a[target=_blank] {
+    color: red;
+}
+
+a[href="google.com"] {
+    color: aquamarine;
+}

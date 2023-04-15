@@ -1,0 +1,31 @@
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+* {
+    font-size: 1.1em;
+}
+
+.primeira-letra::first-letter {
+    color: yellow;
+}
+
+.primeira-linha::first-line {
+    color: yellow;
+}
+
+li::marker {
+    color: red;
+    font-size: 40px;
+}
+
+.com-before::before {
+    content: url(../images/img_CSS.png);
+}
+
+.com-after::after {
+    content: '';
+    display: inline-block;
+    background: url(../images/img_CSS.png);
+    width: 250px;
+    height: 250px;
+}

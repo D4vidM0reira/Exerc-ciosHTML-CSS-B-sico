@@ -1,0 +1,31 @@
+:root {
+    --cor-primaria:green;
+    --tamanho-de-fonte-padrao: 16px;
+}
+
+h1 {
+    color: var(--cor-primaria, blue);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+h2 {
+    color: var(--cor-primaria);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+h3 {
+    color: var(--cor-primaria);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+span {
+    color: var(--cor-primaria);
+    font-size: var(--tamanho-de-fonte-padrao);
+    transform: translate();
+}
+
+p {
+    color: var(--cor-primaria);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
