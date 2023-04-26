@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex container</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <h1 class="titulo">Flex container: Direction, wrap e Flow</h1>
+    <div class="box">
+        <section>
+            <h2 class="subtitulo">
+                Direction -  controla a direção dos itens dentro do contêiner flexível.
+            </h2>
+            <ul>
+                <li>"row" (horizontal/padrão)</li>
+                <li>"row-reverse" (horizontal inversa)</li>
+                <li>"column" (vertical)</li>
+                <li>"column-reverse" (vertical inversa)</li>
+            </ul>
+            <div class="container direction">
+                <div class="item">item 1</div>
+                <div class="item">item 2</div>
+                <div class="item">item 3</div>
+                <div class="item">item 4</div>
+                <div class="item">item 5</div>
+            </div>
+        </section> 
+        
+    </div>
+    <div class="box">
+        <section>
+            <h2 class="subtitulo">
+                Wrap - controla como esses itens se comportam quando não cabem todos em uma única linha ou coluna.
+            </h2>
+            <ul>
+                <li>"wrap" (quebra de linha/coluna)</li>
+                <li>"nowrap" (sem quebra)</li>
+                <li>"wrap-reverse" (quebra inversa de linha/coluna)</li>
+            </ul>
+            <div class="container wrap">
+                <div class="item">item 1</div>
+                <div class="item">item 2</div>
+                <div class="item">item 3</div>
+                <div class="item">item 4</div>
+                <div class="item">item 5</div>
+            </div>
+        </section>
+    </div>
+    <div class="box">
+        <section>
+            <h2 class="subtitulo">Flow - versão shorthand, juntas as duas propriedades em uma única declaração;</h2>
+    
+            <div class="container flow">
+                <div class="item">item 1</div>
+                <div class="item">item 2</div>
+                <div class="item">item 3</div>
+                <div class="item">item 4</div>
+                <div class="item">item 5</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

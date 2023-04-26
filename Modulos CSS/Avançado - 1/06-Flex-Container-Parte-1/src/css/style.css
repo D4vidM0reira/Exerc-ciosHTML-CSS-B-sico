@@ -1,0 +1,44 @@
+.titulo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.subtitulo {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.direction {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: nowrap;
+}
+
+.flow {
+    flex-flow: row wrap;
+}
+
+ul li {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80%;
+}
