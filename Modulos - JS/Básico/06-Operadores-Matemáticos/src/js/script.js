@@ -1,5 +1,8 @@
-let a = 1
-let b = 2
+let primeiroValor = 1
+let segundoValor = 2
 
-soma
-alert(a + b)
+console.log(primeiroValor + segundoValor);
+console.log(primeiroValor - segundoValor);
+console.log(primeiroValor / segundoValor);
+console.log(primeiroValor * segundoValor);
+console.log(primeiroValor % segundoValor);

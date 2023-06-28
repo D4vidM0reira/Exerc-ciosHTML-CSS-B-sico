@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.btn {
+   position: absolute;
+   top: 40%;
+}
+
+.left {
+    margin-left: 70%;
+}
+
+.right {
+    margin-right: 30%;
+}
+
+.box {
+    text-align: center;
+}
+
+.saida-de-img {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.imagem {
+    width: 400px;
+    height: 500px;
+}
+
+.fa {
+    font-size: 80px;
+}
+
+.fa:hover {
+    color: rgb(56, 175, 92);
+    scale: 1.1;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btnDesabilitado {
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.229);
+}

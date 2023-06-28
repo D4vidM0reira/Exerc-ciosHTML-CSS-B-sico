@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Atributos e estilos dos elementos do DOM</title>
+    <style>
+        .fonte-grande {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manipulando Atributos e estilos dos elementos do DOM</h1>
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar cor de fundo do primeiro post</button>
+    <button onclick="removerCorDeFundoPrimeiroPost()">Alterar cor de fundo do primeiro post</button>
+    <br>
+    <br>
+    <button onclick="aumentarFontSegundoPost()">Aumentar a fonte do segundo post</button>
+    <button onclick="diminuirFontSegundoPost()">Diminuir a fonte do segundo post</button>
+    <article class="post">
+        <p><strong>David Moreira</strong><span>@davidmoreira - 11min</span></p>
+        <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Porro est iure esse, sed eius, ea quaerat nesciunt magni deserunt vero
+             eligendi molestiae ullam placeat magnam? Ea voluptatum aspernatur 
+             maiores iure.
+        </p>
+        <br>
+    </article>
+    <article class="post">
+        <p><strong>David Moreira</strong><span>@davidmoreira - 11min</span></p>
+        <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Porro est iure esse, sed eius, ea quaerat nesciunt magni deserunt vero
+             eligendi molestiae ullam placeat magnam? Ea voluptatum aspernatur 
+             maiores iure.
+        </p>
+        <br>
+    </article>
+
+    <h2>manipulando atributos</h2>
+    <!-- // passando parametros do html para o javaScript -->
+
+    <button onclick="marcarRadio('F')">marcar o radio femenino</button>
+    <button onclick="marcarRadio('M')">marcar o radio masculino</button>
+
+    <br>
+    <br>
+    
+    Feminino <input type="radio" name="genero" id="femenino">
+    Masculino <input type="radio" name="genero" id="masculino">
+
+    <button onclick="limparRadio()">Limpar radio</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

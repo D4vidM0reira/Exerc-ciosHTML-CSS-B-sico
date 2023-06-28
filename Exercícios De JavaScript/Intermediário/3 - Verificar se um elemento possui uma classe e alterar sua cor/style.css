@@ -1,0 +1,13 @@
+.quadrado {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.preto {
+    background-color: #000;
+}
+
+.azul {
+    background-color: rgb(2, 2, 243);
+}
