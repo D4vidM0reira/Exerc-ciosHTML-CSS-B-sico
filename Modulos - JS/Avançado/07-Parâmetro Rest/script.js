@@ -1,5 +1,7 @@
-function incentiverQuester(mensagem, ...questers) {
-    questers.map((quester) => {console.log(`${mensagem} ${quester}`)})
+function incentivarQuester(msg, ...quester) {
+    quester.map(quester => {
+        console.log(msg, quester);
+    })
 }
 
-incentiverQuester('parabéns por ter chego ao módulo de javaScript avançado', 'joão', 'pedro', 'jose', 'mateus')
+incentivarQuester("parabéns por ter terminado o módulo de js avançado", 'joao', 'pedro', 'maria')
